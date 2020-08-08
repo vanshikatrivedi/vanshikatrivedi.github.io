@@ -199,7 +199,8 @@ header section
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 1em;
+  margin-bottom: 4rem;
+  padding: 2em;
 }
 
 .logo {
@@ -209,8 +210,6 @@ header section
   position: fixed;
   box-shadow: var(--bs);
 }
-
-
 
 .theme-toggle-button{
   background-color: transparent;
@@ -226,13 +225,23 @@ header section
   transition: transform 250ms ease-in-out;
 }
 
-.dark-mode-icon{
-  align-content: center;
-}
-
 .theme-toggle-button:hover{
   transform: scale(1:1);
 }
+
+
+.horizontal-center{
+  margin: 0;
+  display: block;
+  position: relative;
+  position: absolute;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  
+  left: 95%;
+  top: 8%;
+}
+
 
 .nav {
   position: fixed;
@@ -333,23 +342,6 @@ header section
 .hamburger::before { top: 6px; }
 .hamburger::after { bottom: 6px; }
 
-.theme-toggle-button,
-.hamburger{
-  display: flex;
-  flex-direction: row;
-}
-
-.horizontal-center{
-  margin: 0;
-  position: absolute;
-  right: 1%;
-  left: 96%;
-  top: 8%;
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
-}
-
-
 
 
 
@@ -405,10 +397,6 @@ header section
 
 /*  My skills section  */
 
-#particles-js{
-  align-content: center;
-}
-
 
 .my-skills{
   margin: 0;
@@ -432,7 +420,7 @@ header section
   display: block;
   width: 2em;
   height: 2.5px;
-  margin: 0.5em auto 1em;
+  margin: 1em auto 1em;
   background: var(--clr-light);
   opacity: 0.75;
 }
@@ -447,7 +435,6 @@ header section
   color: var(--clr-accent);
   align-items: center;
   padding-top: 80px;
-  padding-bottom: 50px;
 }
 
 
@@ -457,12 +444,18 @@ header section
   flex-direction: row;
   justify-content: space-around;
   align-items: flex-start;
-  margin-top: 2.5rem;
+  margin-top: 2rem;
 }
 
 .skill{
-  width: 300px;
+  width: 350px;
   padding: 1rem;
+  text-align: center;
+}
+
+.my-skills .btn{
+  margin-bottom: 6rem;
+
 }
 
 
@@ -477,6 +470,8 @@ header section
     text-align: center;
   }
 }
+
+
 /*About-me*/
 
 .about-me {
