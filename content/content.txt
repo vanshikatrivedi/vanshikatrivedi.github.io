@@ -1,0 +1,16 @@
+<h3>Coding + Development</h3>
+                    <p>
+                        As, stated above I am a Front-End Developer keenly interested in all feilds of Coding and Development, be it Android or Web-Development. I can code in languages like C, C++, Java and Python too and have worked on several IDEs too. I am a curious, quick learner trying my hands on all sorts of technology.
+                    </p>
+
+
+                    <h3>Managerial and Leadership Skills</h3>
+                    <p>
+                        I stand here with a dynamic history of managing quite a number of events and leading a plethora of teams, committees or events as you can say. 
+                    </p>
+
+                    <h3>Content Writing + Graphic Designing + Fashion Enthusiast</h3>
+                    <p>
+                        I have served as the Graphic Designer and Content Writer for many pretigious and well known organisations.   
+                    </p>
+
