@@ -544,10 +544,8 @@ header{
   opacity: .7;
   padding: 0;
   margin: 2em 0 0;
-
   color:#C0C0C0;
-  font-weight: 800;
-  font-family: 'Courier';
+  font-weight: 500;
   font-size: 1.3rem;
 }
 
