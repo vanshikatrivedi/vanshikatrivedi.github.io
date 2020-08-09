@@ -2,12 +2,11 @@
 
 
             <div class="logo">
-
                 <a href="">
                  <img src="img/logo-without-name.svg">
                 </a>
-
             </div>
+
             <div class="header-right">
             <button class="nav-toggle" aria-label="toggle navigation">
                 <span class = "hamburger"></span>
