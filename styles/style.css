@@ -208,7 +208,8 @@ header section
   max-height: 60px;
   mix-blend-mode: difference;
   position: fixed;
-  box-shadow: var(--bs);
+  z-index: 500;
+  box-shadow:0.125em 0.125em 0.25em rgba(0,0,0,.15);
 }
 
 .theme-toggle-button{
@@ -618,8 +619,8 @@ header section
 
   color:#C0C0C0;
   font-weight: 800;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: small;
+  font-family: 'Courier';
+  font-size: 1.3rem;
 }
 
 
