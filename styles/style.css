@@ -308,7 +308,7 @@ header{
 
 .nav ul li a{
   text-decoration: none;
-  color: var(--clr-light);
+  color: #fff;
   font-size: 2rem;
   font-weight: var(--fw-bold);
 }
