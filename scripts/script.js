@@ -12,21 +12,21 @@ let body = document.querySelector('body');
 
 //navigation functions
 
-      const navToggle = document.querySelector('.nav-toggle');
-      const navLinks = document.querySelectorAll('.nav__link')
-      
-      navToggle.addEventListener('click', () => {
-          document.body.classList.toggle('nav-open');
-      });
-      
-      navLinks.forEach(link => {
-          link.addEventListener('click', () => {
-              document.body.classList.remove('nav-open');
-          })
-      })
+let nav = document.querySelector('.nav');
+let menuOpen = false;
+function toggleNav(){
+  if (!menuOpen){
+    nav.style.transform = `translateX(-100%)`
+    menuOpen = !menuOpen;
+  }
+  else{
+    nav.style.transform = `translateX(0)`
+    menuOpen = !menuOpen;
+  }
+}
 
-      //typing effect
-      //smart backspacing
+
+
 
     
       

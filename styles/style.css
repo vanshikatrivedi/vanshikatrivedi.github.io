@@ -196,9 +196,7 @@ header section
 header{
   width: 100%;
   height: 72px;
-  position: fixed;
   z-index: 99999;
-  background-color: var(--clr-light);
 }
 
 .header-container{
@@ -238,6 +236,7 @@ header{
   border: none;
   cursor: pointer;
   outline: none;
+  z-index: 99999;
 }
 
 .nav-toggle{
@@ -245,6 +244,7 @@ header{
   border: none;
   outline: none;
   cursor: pointer;
+  z-index: 99999;
 }
 
 .nav-toggle .hamburger{
@@ -273,7 +273,45 @@ header{
 .hamburger::after { bottom: 6px; }
 
 .nav{
-  display: none;
+  position: fixed;
+  height: 100vh;
+  width: 400px;
+  top: 0;
+  right: -400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--clr-dark);
+  z-index: 9990;
+  transform: translateX(0);
+  transition: transform 0.2s cubic-bezier(.64,.06,.72,.16);
+}
+
+.nav ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.nav ul li{
+  padding: 0.5rem;
+}
+
+.nav ul li a{
+  text-decoration: none;
+  color: var(--clr-light);
+  font-size: 2rem;
+}
+
+@media(max-width: 600px){
+  .nav{
+    width: 100%;
+    right: -100%;
+  }
 }
 
 

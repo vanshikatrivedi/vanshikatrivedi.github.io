@@ -29,28 +29,30 @@
             </div>
 
             <div class="header-right">
+
                 <button class="dark-mode-btn" onclick="toggleTheme()">
                     <img src="img/night.svg" alt="Dark Mode">
                 </button>
 
-                <button class="nav-toggle" aria-label="toggle navigation">
+                <button class="nav-toggle" aria-label="toggle navigation" onclick="toggleNav()">
                     <span class = "hamburger"></span>
                 </button>
    
-                <nav class="nav">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">My Skills</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">My Works</a></li>
-                        <li class="nav__item"><a href="            " class="nav__link">Resume</a></li>
-                    </ul>
-                </nav>
                 
             </div>
 
            </div>
         </header>
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="/" class="nav__link">Home</a></li>
+                <li onclick="toggleNav()" class="nav__item"><a href="#skills" class="nav__link">My Skills</a></li>
+                <li onclick="toggleNav()" class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li onclick="toggleNav()" class="nav__item"><a href="#work" class="nav__link">My Works</a></li>
+                <li onclick="toggleNav()" class="nav__item"><a href="            " class="nav__link">Resume</a></li>
+            </ul>
+        </nav>
         
 
         <!-- Introduction -->
@@ -61,7 +63,7 @@
                 <strong>Vanshika Trivedi</strong>
             </h1>
 
-           <p class="section__subtitle section__subtitle--intro">A CODER GIRL :)</p>
+           <p class="section__subtitle section__subtitle--intro">a coder girl :)</p>
 
             <img src="img/smiling.jpg" class="intro__img">
         </section>
