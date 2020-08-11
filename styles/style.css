@@ -284,6 +284,7 @@ header{
   align-items: center;
   background-color: #303030;
   background-image: url(../img/pic.jpg);
+  background-repeat: no-repeat;
   background-blend-mode: multiply;
   /* background-color: var(--clr-dark); */
   z-index: 9990;
