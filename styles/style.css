@@ -282,7 +282,10 @@ header{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: var(--clr-dark);
+  background-color: #303030;
+  background-image: url(../img/pic.jpg);
+  background-blend-mode: multiply;
+  /* background-color: var(--clr-dark); */
   z-index: 9990;
   transform: translateX(0);
   transition: transform 0.2s cubic-bezier(.64,.06,.72,.16);
@@ -305,6 +308,12 @@ header{
   text-decoration: none;
   color: var(--clr-light);
   font-size: 2rem;
+  font-weight: var(--fw-bold);
+}
+
+
+.nav__link:hover {
+  color: var(--clr-accent);
 }
 
 @media(max-width: 600px){
