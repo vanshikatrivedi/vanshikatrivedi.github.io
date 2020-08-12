@@ -331,6 +331,7 @@ header{
 
 .intro {
   position: relative;
+  min-width: 700px;
 }
 
 
@@ -339,7 +340,29 @@ header{
 }
 
 .section__subtitle--intro {
+  font-family: 'Courier New', Courier, monospace;
+  color: #000;
+  text-shadow: 0 1px 1px rgba(0,0,0,.5);
+  font-weight: 550;
   display: inline-block;
+  height: 40px;
+  width: 575px;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  transform: translateX(-55%);
+  grid-area: subtitle;
+}
+
+.section__title--intro{
+  grid-area: title;
+}
+
+.section__subtitle--intro p{
+  margin: 0;
+  line-height: 40px;
+  margin-right: 1rem;
 }
 
 @media (min-width: 600px) {
@@ -360,20 +383,7 @@ header{
       position: relative;
       z-index: 2;
   }    
-  
-  .section__subtitle--intro {
-      font-family: 'Courier New', Courier, monospace;
-      color: #000;
-      text-shadow: 0 1px 1px rgba(0,0,0,.5);
-      font-weight: 550;
-      align-self: start;
-      grid-column: -1 / 1;
-      grid-row: 2;
-      text-align: right;
-      position: relative;
-      left: -1.5em;
-      width: calc(100% + 1.5em);
-  }
+
 }
 
 
