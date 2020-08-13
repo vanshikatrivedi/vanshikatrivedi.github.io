@@ -402,6 +402,7 @@ header{
   background-image: url(../img/services-bg.png);
   background-size: cover;
   background-blend-mode: multiply;
+  background-attachment: fixed;
   color: var(--clr-light);
 }
 
