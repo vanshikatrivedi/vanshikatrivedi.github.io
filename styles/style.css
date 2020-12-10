@@ -531,6 +531,7 @@ header{
 
 .portfolio a{
   border: 5px solid var(--clr-header-footer);
+  padding: 1.8rem;
 }
 
 .portfolio__item {
@@ -565,10 +566,7 @@ header{
   text-align: center;
   padding: 2.5em 0 1em 0;
   font-size: var(--fs-h3);
-
 }
-
-
 
 .footer a { 
   color: inherit;
@@ -581,7 +579,7 @@ header{
 
 .footer__link:hover,
 .social-list__link:hover {
-  opacity: .7;
+  opacity: 1;
 }
 
 .footer__link:hover {
@@ -602,6 +600,10 @@ header{
 
 .social-list__link {
   padding: .5em;
+}
+
+.social-list__link:hover {
+  z-index: 2;
 }
 
 .copyright{
