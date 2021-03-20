@@ -522,9 +522,7 @@ header{
 .portfolio {
   background-color: #fff;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
- 
-  
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
 }
 
 .portfolio a{
@@ -533,7 +531,6 @@ header{
 }
 
 .portfolio__item {
- 
   background: var(--clr-accent)
   overflow: hidden;
 }
